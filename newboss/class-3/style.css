@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.menu-bar{
+    background:rgb(205, 44, 219);
+    text-align:center;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style:none;
+    color:rgb(255, 253, 253);
+}
+.menu-bar ul li{
+    width:120px;
+    height:15px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+.active, .menu-bar ul li:hover{
+    background-color: rgb(154, 135, 241);
+    border-radius: 10px;
+}

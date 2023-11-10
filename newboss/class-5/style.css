@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-bar{
+    background: blue;
+    text-align: center
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    height: 15px;
+    padding:15px;
+    width: 120px;
+    color: white;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: red;
+}
+.active,.menu-bar ul li:hover{
+    background-color: pink;
+    border-radius: 3px;
+}
